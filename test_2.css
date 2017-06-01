@@ -1,0 +1,47 @@
+input[type=text], select{
+    padding: 15px 10px;
+    border: 1px #dbdbdb solid;
+    border-radius: 4px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Cuprum', sans-serif;
+    margin-bottom: 50px;
+}
+div{
+    padding: 20px;
+    margin: auto;
+    background: linear-gradient(to right, #fdeded, #e1dcdc);
+    display: block;
+    border-radius: 4px;
+    width: 20%;
+    opacity: 0.8;
+    transition: 0.6s;
+}
+label{
+    font-size: 30px;
+    font-family: 'Cuprum', sans-serif;
+}
+input[type=Submit] {
+    background: #37A2B2;
+    color: white;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center; 
+}
+input[type=Submit]:hover{
+    background: #327883;
+}
+div:hover{
+    opacity: 1;
+    transition: 0.6s;
+}
+body{
+    background: #082aa5;
+}

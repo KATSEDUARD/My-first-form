@@ -1,0 +1,68 @@
+div.menu{
+    margin-left: 300px;
+    margin-top: 200px;
+    display: block;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+div.main-menu{
+    display: block;
+    float: left;
+    background: linear-gradient(to bottom, white, grey);
+    padding: 20px;
+    border-right: 1px solid black;
+    text-align: center;
+    width: 119px;
+    transition: 0.5s;
+    box-shadow: 10px 10px 50px;
+}
+div.main-menu:first-child{
+    border-left: 1px solid black;
+}
+div.main-menu:hover{
+    background: black;
+    color: white;
+    transition: 0.5s;
+}
+.dropped-down{
+    margin-top: 20px;
+    display: none;
+    background-color: #f9f9f9;
+    position: absolute;
+    min-width: 140px;
+    right: 1131px;
+}
+.dropped-down a{
+    color: black;
+    padding: 20px 20px;
+    text-decoration: none;
+    display: block;
+    border: 1px solid black;
+    border-top: none;
+    transition: 0.5s;
+}
+#main-menu{
+    display: block;
+    float: left;
+    background: linear-gradient(to bottom, white, grey);
+    padding: 20px;
+    border-right: 1px solid black;
+    text-align: center;
+    width: 119px;
+    transition: 0.5s;
+    box-shadow: 10px 10px 50px;
+}
+#main-menu:hover{
+    background: black;
+    color: white;
+    transition: 0.5s;
+}
+#main-menu:hover .dropped-down{
+    display: block;
+}
+.dropped-down a:hover{
+    background: green;
+    color: white;
+    transition: 0.5s;
+}
